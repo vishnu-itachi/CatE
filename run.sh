@@ -1,11 +1,11 @@
 # dataset directory
-dataset=nyt
+dataset=tweet
 
 # text file name; one document per line
 text_file=phrase_text.txt
 
 # category name file
-topic_file=locations.txt
+topic_file=topics.txt
 
 topic=$(echo ${topic_file} | cut -d'.' -f 1)
 
